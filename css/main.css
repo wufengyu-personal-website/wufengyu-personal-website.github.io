@@ -1,0 +1,74 @@
+body {
+	padding: 0px;
+	margin: 0px;
+}
+
+.header {
+	position: absolute;
+	width: 100%;
+	height: 100%;	
+	background-image: url("../img/buf.jpg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;	
+}
+a {
+	text-decoration: None;
+}
+
+.content-wrapper{
+	position: relative;
+
+	width: 100%;
+	top: 30%;	
+	transform: translateY(-50%);
+}
+
+.description {
+	width: 650px;
+	margin: 0 auto;
+}
+
+.description p {
+	color: white;
+	text-align: center;
+	font-family: Source Sans Pro;
+}
+
+#title {	
+	padding: 0;
+	margin: 20px;	
+	color: white;
+	font-size: 58px;
+	font-family: Montserrat;	
+	text-align: center;	
+}
+
+.List{
+	width: 250px;	
+	margin: 0 auto;	
+}
+
+.List li {
+	display: table-cell;	
+}
+
+.logos{
+	width: 30px;	
+}
+
+
+@media (max-width: 640px) {
+	.description {
+		width: 500px;
+	}
+}
+
+@media (max-width: 480px){
+	.description {
+		width: 300px;
+	}
+}
+
+
